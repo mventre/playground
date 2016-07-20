@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Testing Navigation Alignment</title>
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #efefef;
+        font-size: 16px; /* 1rem = 16px */
+        font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+      }
+
+      header {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #111;
+      }
+
+      nav {
+        margin: 0 auto;
+
+      }
+
+      nav a {
+        display: inline-block;
+        padding: 1rem; /* this surrounds the text node with 1rem of padding so it 'hugs' it into the middle - you can play with these values to move the text node around inside the link */
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #333;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+  </body>
+  
+</html>
